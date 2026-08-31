@@ -6,7 +6,7 @@ function Notify(Title1, Text1, Icon1, Time1)
         Duration = Time1,
     })
 end
-Notify("大司马脚本", "作者：2221", "rbxassetid://108228172425291", 3)
+Notify("2221脚本", "作者：2221", "rbxassetid://108228172425291", 3)
 
 Notify("运行", "启动成功", "rbxassetid://108228172425291", 3)
 
