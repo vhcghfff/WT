@@ -61,7 +61,7 @@ local Window = WindUI:CreateWindow({
 -- ================ 标题 ================
 
 Window:Tag({
-    Title = "v1大司马",
+    Title = "v12121",
     Color = Color3.fromHex("#30ff6a")
 })
 
