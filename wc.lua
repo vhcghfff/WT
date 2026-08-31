@@ -409,7 +409,7 @@ credits:Button("Dex",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoFenHG/Dex-Explorer/refs/heads/main/Dex-Explorer.lua"))()
 end)
     credits:Button("甩飞",function()
-    game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "旋转甩飞"; Text ="汉化：大司马"; Duration = 4; })
+    game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "旋转甩飞"; Text ="汉化：2221"; Duration = 4; })
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "旋转甩飞"; Text ="原作者: topit "; Duration = 4; })
 
 local PlayerService = game:GetService("Players")--:GetPlayers()
@@ -629,7 +629,7 @@ TitleText.Parent = TitleBar
 TitleText.AnchorPoint = Vector2.new(0, 0)
 TitleText.Position = UDim2.new(0, 100, 0, 25)
 TitleText.Font = font
-TitleText.Text = "             旋转甩飞脚本【汉化作者：大司马】"..version
+TitleText.Text = "             旋转甩飞脚本【汉化作者：2221】"..version
 TitleText.TextColor3 = SelectedTheme[8]
 TitleText.TextSize = 28
 TitleText.ZIndex = 300
@@ -661,7 +661,7 @@ CreditText.Name = "Credit Text"
 CreditText.Parent = Menu
 CreditText.Position = UDim2.new(0, 20, 0, 300)
 CreditText.Font = font
-CreditText.Text = "原作者: topit 汉化:大司马 "
+CreditText.Text = "原作者: topit 汉化:2221 "
 CreditText.TextColor3 = SelectedTheme[7]
 CreditText.TextSize = 20
 CreditText.TextXAlignment = Enum.TextXAlignment.Left
@@ -949,7 +949,7 @@ local function ServerKek()
     while Fling[4] do
         if index > playercount then
             CloseObject(ToggleServerKill)
-            DisplayText("全部甩飞成功","汉化：大司马")
+            DisplayText("全部甩飞成功","汉化：2221")
             Fling[4] = false
             break
         else
@@ -988,7 +988,7 @@ end
 --[[events:]]--
 CloseButton.MouseButton1Down:Connect(function()
     TitleBar:TweenPosition(UDim2.new(-0.3, 0, 0.7, 0), Enum.EasingDirection.In, Enum.EasingStyle.Back, 0.75)
-	DisplayText("旋转甩飞关闭","汉化作者：大司马")
+	DisplayText("旋转甩飞关闭","汉化作者：2221")
 	wait(0.8)
 	ScreenGui.Enabled = false
 	ScreenGui:Destroy()
@@ -1174,7 +1174,7 @@ ddnsfbfwewefe.BorderSizePixel = 0
 ddnsfbfwewefe.Position = UDim2.new(-0.000210968778, 0, -0.00395679474, 0)
 ddnsfbfwewefe.Size = UDim2.new(0, 237, 0, 27)
 ddnsfbfwewefe.Font = Enum.Font.SourceSans
-ddnsfbfwewefe.Text = "大司马"
+ddnsfbfwewefe.Text = "2221"
 ddnsfbfwewefe.TextColor3 = Color3.fromRGB(255, 255, 255)
 ddnsfbfwewefe.TextScaled = true
 ddnsfbfwewefe.TextSize = 14.000
@@ -1296,7 +1296,7 @@ Vfly.BackgroundColor3 = Color3.fromRGB(0, 150, 191)
 Vfly.BorderSizePixel = 0
 Vfly.Size = UDim2.new(0, 57, 0, 27)
 Vfly.Font = Enum.Font.SourceSans
-Vfly.Text = "大司马nb"
+Vfly.Text = "2221nb"
 Vfly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Vfly.TextScaled = true
 Vfly.TextSize = 14.000
